@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Engine\Buffer">
+      <UniqueIdentifier>{c81ca7e6-9cdc-478d-8575-d31b8b49c5fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Res">
+      <UniqueIdentifier>{cd4fad1b-518c-4320-9e98-33ad26e9d1e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Res\Shader">
+      <UniqueIdentifier>{aa6dc8d5-104f-4383-a447-62a180ad5c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{bdb1c733-ef59-4691-bab0-f052ccb6fdd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Window.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Buffer\BufferManager.cpp">
+      <Filter>Engine\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Buffer\ConstantBuffer.cpp">
+      <Filter>Engine\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Buffer\IndexBuffer.cpp">
+      <Filter>Engine\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Buffer\TexBuffer.cpp">
+      <Filter>Engine\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Buffer\VertexBuffer.cpp">
+      <Filter>Engine\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\CommonDifinition.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\InputDataDefinition.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Window.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Buffer\BufferManager.h">
+      <Filter>Engine\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Buffer\ConstantBuffer.h">
+      <Filter>Engine\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Buffer\IndexBuffer.h">
+      <Filter>Engine\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Buffer\TexBuffer.h">
+      <Filter>Engine\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Buffer\VertexBuffer.h">
+      <Filter>Engine\Buffer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Engine\Res\Shader\PixelShader.hlsl">
+      <Filter>Engine\Res\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Engine\Res\Shader\VertexShader.hlsl">
+      <Filter>Engine\Res\Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Engine\Res\Shader\ShaderHeader.hlsli">
+      <Filter>Engine\Res\Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
